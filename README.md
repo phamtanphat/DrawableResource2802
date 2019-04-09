@@ -1,1 +1,0 @@
-# DrawableResource2802
