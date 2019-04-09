@@ -8,10 +8,16 @@
 
     <Button
         android:background="@drawable/shape_drawable"
-        android:layout_centerInParent="true"
         android:text="Shape Drawable"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/imageviewClipDrawable"
+        android:src="@drawable/clip_drawable"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
 
 
 </RelativeLayout>
