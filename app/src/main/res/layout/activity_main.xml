@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/buttonShape"
         android:background="@drawable/shape_drawable"
         android:text="Shape Drawable"
         android:layout_width="50dp"
@@ -15,9 +16,34 @@
         android:id="@+id/imageviewClipDrawable"
         android:src="@drawable/clip_drawable"
         android:scaleType="fitXY"
-        android:layout_centerInParent="true"
-        android:layout_width="300dp"
+        android:layout_toRightOf="@id/buttonShape"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <Button
+        android:id="@+id/buttonCong"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/imageviewClipDrawable"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="100dp"
+        android:text="+"
+        android:textSize="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/pin1"
+        android:id="@+id/imageviewEnergy"
+        android:layout_below="@id/buttonCong"
+        android:layout_centerHorizontal="true"
+        android:layout_width="220dp"
         android:layout_height="300dp" />
+    <Button
+        android:id="@+id/buttonTru"
 
-
+        android:layout_below="@id/imageviewEnergy"
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="100dp"
+        android:text="-"
+        android:textSize="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
