@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ImageView
-        android:src="@drawable/pin1"
+        android:src="@drawable/level_list_drawable"
         android:id="@+id/imageviewEnergy"
         android:layout_below="@id/buttonCong"
         android:layout_centerHorizontal="true"
