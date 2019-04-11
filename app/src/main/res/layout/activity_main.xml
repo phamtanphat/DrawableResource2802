@@ -38,7 +38,7 @@
         android:layout_height="300dp" />
     <Button
         android:id="@+id/buttonTru"
-
+        android:background="@drawable/state_list_drawable"
         android:layout_below="@id/imageviewEnergy"
         android:layout_centerHorizontal="true"
         android:paddingHorizontal="100dp"
